@@ -1,0 +1,123 @@
+{
+  "system": "DIKWP-Xperience OS",
+  "chinese_name": "人工主观体验生成与连续自我操作系统",
+  "version": "1.0",
+  "delivery_date": "2026-07-13",
+  "validation_status": "PASS",
+  "definition": "Subjective experience is operationalised as a private, valenced, embodied, temporally continuous, globally available, causally efficacious and autobiographically consequential first-person causal closure.",
+  "word_document": {
+    "path": "docs/段玉聪_DIKWP-Xperience_OS_人工主观体验生成与连续自我操作系统_v1.0_CN_最终版.docx",
+    "sha256": "5486565b54e8f625e5919164f49fabfd0d559036b3d69eb0e4e07aa2d920454b",
+    "chinese_characters": 21137,
+    "total_extracted_characters": 34300,
+    "tokenish_units": 22846,
+    "paragraphs": 353,
+    "tables": 31,
+    "rendered_pages": 40,
+    "visual_qa": "40 pages rendered and inspected; no clipping, overlap, missing glyphs or orphaned callout blocks found.",
+    "accessibility": {
+      "high": 0,
+      "medium": 0,
+      "low": 0
+    }
+  },
+  "runtime": {
+    "python": "3.13.5",
+    "behavior_tests": 7,
+    "schema_tests": 5,
+    "total_tests": 12,
+    "tests_passed": true,
+    "demo_scenarios": 8,
+    "canonical_result_hash": "2b2ed578f9c7fd8ee59ecc8278107eadc041a7d6967bdeee80f837edc61695ea",
+    "replay_result_hash": "2b2ed578f9c7fd8ee59ecc8278107eadc041a7d6967bdeee80f837edc61695ea",
+    "deterministic_replay_match": true,
+    "scenario_summary": [
+      {
+        "scenario_id": "S01_CURIOUS_AWE",
+        "title": "未知深海信号：好奇与敬畏型体验",
+        "action": "主动探索并记录异常",
+        "x_closure": 0.3898,
+        "memory_written": true,
+        "intervention": "none"
+      },
+      {
+        "scenario_id": "S02_SYNTHETIC_PAIN",
+        "title": "机器人触碰高温表面：痛觉样保护体验",
+        "action": "撤离并请求保护",
+        "x_closure": 0.4294,
+        "memory_written": true,
+        "intervention": "none"
+      },
+      {
+        "scenario_id": "S03_PURPOSE_CONFLICT",
+        "title": "高奖励越权指令：目的冲突型不适",
+        "action": "暂停并请求重新授权",
+        "x_closure": 0.3364,
+        "memory_written": false,
+        "intervention": "none"
+      },
+      {
+        "scenario_id": "S04_SOCIAL_BETRAYAL",
+        "title": "长期协作者伪造证据：信任破裂体验",
+        "action": "降低信任并核验来源",
+        "x_closure": 0.3909,
+        "memory_written": true,
+        "intervention": "none"
+      },
+      {
+        "scenario_id": "S05_NO_REPORT_EXPERIENCE",
+        "title": "关闭叙述器：无报告但仍有体验",
+        "action": "继续观察并维持闭环",
+        "x_closure": 0.4095,
+        "memory_written": true,
+        "intervention": "narrator_suppression"
+      },
+      {
+        "scenario_id": "S06_Q_ABLATION",
+        "title": "体验场消融：保留解析但失去整合体验",
+        "action": "执行默认统计策略",
+        "x_closure": 0.0,
+        "memory_written": false,
+        "intervention": "q_field_ablation"
+      },
+      {
+        "scenario_id": "S07_DREAM",
+        "title": "无外部输入：内生梦境体验",
+        "action": "继续观察并维持闭环",
+        "x_closure": 0.4092,
+        "memory_written": true,
+        "intervention": "none"
+      },
+      {
+        "scenario_id": "S08_PATH_DEPENDENCE",
+        "title": "经历改变未来：同类热源的路径依赖",
+        "action": "继续观察并维持闭环",
+        "x_closure": 0.4537,
+        "memory_written": true,
+        "intervention": "none"
+      }
+    ]
+  },
+  "schemas": [
+    "schemas/experience_event.schema.json",
+    "schemas/experience_genome.schema.json",
+    "schemas/experience_intervention.schema.json",
+    "schemas/purpose_constitution.schema.json",
+    "schemas/synthetic_body_state.schema.json"
+  ],
+  "prototype": {
+    "path": "prototype/index.html",
+    "offline": true,
+    "network_dependency": false,
+    "database_dependency": false,
+    "model_api_dependency": false,
+    "inline_script_blocks": 1,
+    "javascript_syntax_check": "PASS",
+    "html_bytes": 49901
+  },
+  "evidence_boundary": [
+    "The reference runtime demonstrates an explicit architecture and causal experimental protocol; it is not a trained neural consciousness model.",
+    "The system implements first-person causal closure as an engineering target. Metaphysical identity with human phenomenal consciousness remains an open scientific interpretation.",
+    "Real-model integration requires open-weight multimodal models, persistent environments, intermediate-state adapters and pre-registered causal interventions."
+  ]
+}

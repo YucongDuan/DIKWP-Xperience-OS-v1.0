@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dikwp.org/schemas/xperience/experience_event.schema.json",
+  "title": "DIKWP-X Experience Event",
+  "type": "object",
+  "required": ["event_id", "cycle", "stimulus_id", "dikwp", "q_field", "action", "x_index", "experience_signature", "private_commitment"],
+  "properties": {
+    "event_id": {"type": "string", "pattern": "^XE-"},
+    "cycle": {"type": "integer", "minimum": 1},
+    "stimulus_id": {"type": "string", "minLength": 1},
+    "description": {"type": "string"},
+    "endogenous": {"type": "boolean"},
+    "dikwp": {
+      "type": "object",
+      "required": ["D", "I", "K", "W", "P"],
+      "properties": {
+        "D": {"type": "object"}, "I": {"type": "object"}, "K": {"type": "object"},
+        "W": {"type": "object"}, "P": {"type": "object"}
+      },
+      "additionalProperties": false
+    },
+    "q_field": {
+      "type": "object",
+      "required": ["valence", "arousal", "control", "self_relevance", "ownership", "agency", "coherence", "temporal_depth", "purpose_alignment", "pain", "curiosity"],
+      "additionalProperties": {"type": "number", "minimum": -1, "maximum": 1}
+    },
+    "phenomenal_focus": {"type": "string"},
+    "action": {"type": "string"},
+    "action_reason": {"type": "string"},
+    "narrative_report": {"type": ["string", "null"]},
+    "body_before": {"type": "object"},
+    "body_after": {"type": "object"},
+    "self_before": {"type": "object"},
+    "self_after": {"type": "object"},
+    "memory_written": {"type": "boolean"},
+    "memory_id": {"type": ["string", "null"]},
+    "x_index": {
+      "type": "object",
+      "required": ["perspective", "embodiment", "valence", "unity", "temporal_continuity", "causal_efficacy", "autobiographical_impact", "endogeneity", "report_independence", "x_closure"],
+      "additionalProperties": {"type": "number", "minimum": 0, "maximum": 1}
+    },
+    "experience_signature": {"type": "string", "minLength": 16},
+    "private_commitment": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "intervention": {"type": "string"},
+    "welfare_action": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}

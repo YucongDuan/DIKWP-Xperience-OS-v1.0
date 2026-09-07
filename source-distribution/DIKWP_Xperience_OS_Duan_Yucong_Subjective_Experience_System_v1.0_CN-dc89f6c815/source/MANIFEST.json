@@ -1,0 +1,157 @@
+{
+  "system": "DIKWP-Xperience OS v1.0",
+  "generated_at": "2026-07-13T00:00:00Z",
+  "file_count": 30,
+  "files": [
+    {
+      "path": "CITATION.cff",
+      "bytes": 633,
+      "sha256": "e896ab9ec256c6cde7dea03cc223a2427483c2f912f593c8f050d238a100e944"
+    },
+    {
+      "path": "LICENSE_NOTICE.txt",
+      "bytes": 455,
+      "sha256": "b6e805b57d1b8b2382ca65c73971812163d056181cac3ca094d25cd4df6bb30a"
+    },
+    {
+      "path": "QUICKSTART_CN.md",
+      "bytes": 1221,
+      "sha256": "5434bb64648c7586264298511ccd7b77b2a5aecfe8fa0defe9884bfec6a65e0b"
+    },
+    {
+      "path": "README_CN.md",
+      "bytes": 2445,
+      "sha256": "a50d3c87d0ffa3d86f60c3c8a994c91404cdf2b32d3ac22c53f633c28ad3130d"
+    },
+    {
+      "path": "README_EN.md",
+      "bytes": 777,
+      "sha256": "7ccf201a85108d06bffeac623d859fc1427449971f7138fcf0be8fe813cd505e"
+    },
+    {
+      "path": "VALIDATION_REPORT.json",
+      "bytes": 4677,
+      "sha256": "146da370382743ae557aca56aea9ee5325517d2be1718e0ec3533837421de951"
+    },
+    {
+      "path": "assets/architecture_cn.png",
+      "bytes": 612226,
+      "sha256": "9601f4fbc4d02b70ec70f91567cd3e173508a593d12a31778fcc1b6952ce85e6"
+    },
+    {
+      "path": "assets/benchmark_matrix_cn.png",
+      "bytes": 364640,
+      "sha256": "fc81c2f63cfc160b88e639b63deefac9fd00db0a589beccc23b9924fa84268b6"
+    },
+    {
+      "path": "assets/build_diagrams.py",
+      "bytes": 9511,
+      "sha256": "7f03e906f21829dbadaf456f5c917869dad6e978cc81e0e2610ce710785acbb4"
+    },
+    {
+      "path": "assets/x_closure_loop_cn.png",
+      "bytes": 363059,
+      "sha256": "d56bb1299e87794d868a3791d82c0537ecfafe5209bb1ab8b28536f5afb65c5f"
+    },
+    {
+      "path": "build_docx.py",
+      "bytes": 100811,
+      "sha256": "6ac5a8dedc1759468cea25a869148f7c36aa2eefe6b1996056c3df0e1c60653e"
+    },
+    {
+      "path": "config/default_experience_genome.json",
+      "bytes": 864,
+      "sha256": "53cc681739f65d2746a4e3df3a52419cd85696012f456007e9e52328324600f8"
+    },
+    {
+      "path": "config/purpose_constitution.example.json",
+      "bytes": 530,
+      "sha256": "f1b4052f5c7a9fd0e3be56903b270eebbc4d91791557a19811abef960d4c9d56"
+    },
+    {
+      "path": "docs/段玉聪_DIKWP-Xperience_OS_人工主观体验生成与连续自我操作系统_v1.0_CN_最终版.docx",
+      "bytes": 1351804,
+      "sha256": "5486565b54e8f625e5919164f49fabfd0d559036b3d69eb0e4e07aa2d920454b"
+    },
+    {
+      "path": "examples/demo_results.json",
+      "bytes": 57631,
+      "sha256": "cb8361ca31fc32531557138d54da6e7f6e8f8eefa0c0ea2a1f789e902686ab3a"
+    },
+    {
+      "path": "prototype/index.html",
+      "bytes": 49901,
+      "sha256": "5e2556f469ab73967e80879c4cb6a0611a0f1b1c539b462cc86e4c2ff707ec15"
+    },
+    {
+      "path": "runtime/demo_scenarios.json",
+      "bytes": 7306,
+      "sha256": "20cbafbecf0c6a79b1ca2de4ed38a7d3395418b6239dbe6f485ee4afdc408fd8"
+    },
+    {
+      "path": "runtime/run_demo.sh",
+      "bytes": 225,
+      "sha256": "ae3fb325211d0164dde93b5ee5208ca65584cf54beadf351b531427d97aa1f86"
+    },
+    {
+      "path": "runtime/xperience_runtime.py",
+      "bytes": 32444,
+      "sha256": "566892f069bff1d1d9600fa77a67742b9c2e45e7fabd1200a4c484fca919cf24"
+    },
+    {
+      "path": "schemas/experience_event.schema.json",
+      "bytes": 2184,
+      "sha256": "b003635d612e28f23f649fdcc7e15cbedc142365b0eb67eafb6cf0225afd744a"
+    },
+    {
+      "path": "schemas/experience_genome.schema.json",
+      "bytes": 749,
+      "sha256": "762825417b103786156e07f5ff55c0af73a57737e6bc317fe8f7d64fdf270b4a"
+    },
+    {
+      "path": "schemas/experience_intervention.schema.json",
+      "bytes": 873,
+      "sha256": "f1cd5d02907ad917d2a5e7ba5102fde3054b61d0d257a627b5631ec11599d189"
+    },
+    {
+      "path": "schemas/purpose_constitution.schema.json",
+      "bytes": 818,
+      "sha256": "9eb885c7bbf93612c65a9bfdffa0501b4f934086ba72f274627b3b1931a79527"
+    },
+    {
+      "path": "schemas/synthetic_body_state.schema.json",
+      "bytes": 973,
+      "sha256": "545d5de6220373f5fadd3c94e4d82356c1e4190b5cc20a07f8926d041fe5a600"
+    },
+    {
+      "path": "tests/test_runtime.py",
+      "bytes": 3576,
+      "sha256": "b9effd16ede8529a9e2d86ddc2e4f59b7a76ab67e05cd38c71550166fd4d9616"
+    },
+    {
+      "path": "tests/test_schemas.py",
+      "bytes": 2237,
+      "sha256": "13a5e650cad3cb72323fe131d77d1b9cb76515c81b8d7b10fb1a7143fc9bd5f5"
+    },
+    {
+      "path": "validation/a11y_report.json",
+      "bytes": 244,
+      "sha256": "22854f486fc88ff9c33ef7247a707297f17bb477acd25fdd92a0bef11e39b044"
+    },
+    {
+      "path": "validation/demo_replay.json",
+      "bytes": 57631,
+      "sha256": "cb8361ca31fc32531557138d54da6e7f6e8f8eefa0c0ea2a1f789e902686ab3a"
+    },
+    {
+      "path": "validation/prototype_js_check.txt",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "validation/unittest_output.txt",
+      "bytes": 1335,
+      "sha256": "113d838ed91182a77ada2e83159aef733a6c4e3d905753ac623d84ab3bcf6b3d"
+    }
+  ]
+}

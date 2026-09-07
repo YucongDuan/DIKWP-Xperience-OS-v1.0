@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this system specification, please cite it as below."
+title: "DIKWP-Xperience OS: Synthetic Subjective Experience and Continuous Self Operating System"
+version: "1.0"
+date-released: "2026-07-13"
+authors:
+  - family-names: "Duan"
+    given-names: "Yucong"
+  - family-names: "DIKWP-X Working Draft"
+    given-names: "System Architecture"
+license: "LicenseRef-Research-Reference"
+abstract: "A DIKWP-based architecture and executable reference runtime for first-person causal closure, artificial interoception, valenced experience fields, continuous selfhood and causal consciousness experiments."

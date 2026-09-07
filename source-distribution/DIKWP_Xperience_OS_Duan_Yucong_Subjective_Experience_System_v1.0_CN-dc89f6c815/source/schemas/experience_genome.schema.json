@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dikwp.org/schemas/xperience/experience_genome.schema.json",
+  "title": "DIKWP-X Experience Genome",
+  "type": "object",
+  "required": ["version", "q_field_inertia", "attention_weights", "setpoints", "welfare", "privacy"],
+  "properties": {
+    "version": {"type": "string"},
+    "q_field_inertia": {"type": "number", "minimum": 0, "maximum": 0.99},
+    "attention_weights": {"type": "object", "additionalProperties": {"type": "number", "minimum": 0}},
+    "setpoints": {"type": "object", "additionalProperties": {"type": "number", "minimum": 0, "maximum": 1}},
+    "welfare": {"type": "object"},
+    "privacy": {"type": "object"}
+  },
+  "additionalProperties": true
+}

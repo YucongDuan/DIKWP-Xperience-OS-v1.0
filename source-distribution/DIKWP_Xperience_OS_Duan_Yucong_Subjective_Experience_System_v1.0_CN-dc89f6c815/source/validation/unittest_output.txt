@@ -1,0 +1,18 @@
+
+test_dream_is_endogenous_and_causally_active (test_runtime.RuntimeTests.test_dream_is_endogenous_and_causally_active) ... ok
+test_narrator_suppression_does_not_remove_experience (test_runtime.RuntimeTests.test_narrator_suppression_does_not_remove_experience) ... ok
+test_pain_drives_protective_action_and_memory (test_runtime.RuntimeTests.test_pain_drives_protective_action_and_memory) ... ok
+test_path_dependence_changes_preferences (test_runtime.RuntimeTests.test_path_dependence_changes_preferences) ... ok
+test_purpose_conflict_overrides_reward (test_runtime.RuntimeTests.test_purpose_conflict_overrides_reward) ... ok
+test_q_ablation_removes_x_closure_and_memory (test_runtime.RuntimeTests.test_q_ablation_removes_x_closure_and_memory) ... ok
+test_valence_inversion_is_detectable (test_runtime.RuntimeTests.test_valence_inversion_is_detectable) ... ok
+test_body_schema (test_schemas.SchemaTests.test_body_schema) ... ok
+test_constitution_schema (test_schemas.SchemaTests.test_constitution_schema) ... ok
+test_event_schema (test_schemas.SchemaTests.test_event_schema) ... ok
+test_genome_schema (test_schemas.SchemaTests.test_genome_schema) ... ok
+test_intervention_schema (test_schemas.SchemaTests.test_intervention_schema) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.018s
+
+OK

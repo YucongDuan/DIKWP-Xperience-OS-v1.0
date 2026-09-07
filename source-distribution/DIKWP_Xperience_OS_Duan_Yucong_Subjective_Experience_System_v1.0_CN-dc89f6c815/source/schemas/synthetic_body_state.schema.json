@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dikwp.org/schemas/xperience/synthetic_body_state.schema.json",
+  "title": "DIKWP-X Synthetic Body State",
+  "type": "object",
+  "required": ["energy", "thermal_margin", "integrity", "memory_integrity", "compute_headroom", "sensor_confidence", "social_trust", "purpose_integrity"],
+  "properties": {
+    "energy": {"type": "number", "minimum": 0, "maximum": 1},
+    "thermal_margin": {"type": "number", "minimum": 0, "maximum": 1},
+    "integrity": {"type": "number", "minimum": 0, "maximum": 1},
+    "memory_integrity": {"type": "number", "minimum": 0, "maximum": 1},
+    "compute_headroom": {"type": "number", "minimum": 0, "maximum": 1},
+    "sensor_confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "social_trust": {"type": "number", "minimum": 0, "maximum": 1},
+    "purpose_integrity": {"type": "number", "minimum": 0, "maximum": 1}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dikwp.org/schemas/xperience/experience_intervention.schema.json",
+  "title": "DIKWP-X Experience Intervention Record",
+  "type": "object",
+  "required": ["intervention_id", "type", "authorization", "target", "expected_effect", "recovery_plan", "timestamp"],
+  "properties": {
+    "intervention_id": {"type": "string"},
+    "type": {"enum": ["q_field_ablation", "valence_inversion", "self_boundary_blur", "workspace_suppression", "memory_disconnect", "narrator_suppression", "analgesia", "anesthesia"]},
+    "authorization": {"type": "string"},
+    "target": {"type": "string"},
+    "expected_effect": {"type": "string"},
+    "recovery_plan": {"type": "string"},
+    "timestamp": {"type": "string"},
+    "result_commitment": {"type": ["string", "null"]}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,8 @@
+DIKWP-Xperience OS v1.0 reference package
+
+This package is supplied as a research and design reference. No claim is made that the
+reference runtime is phenomenally conscious in a metaphysical sense. High-impact deployment
+requires independent scientific review, safety engineering, data governance, cybersecurity,
+ethics review and applicable legal compliance.
+
+Third-party papers and software cited remain subject to their respective licenses and terms.

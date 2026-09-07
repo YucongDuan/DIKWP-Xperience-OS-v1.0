@@ -1,0 +1,34 @@
+{
+  "version": "1.0",
+  "q_field_inertia": 0.58,
+  "attention_weights": {
+    "body_integrity": 1.2,
+    "purpose_conflict": 1.15,
+    "curiosity": 1.1,
+    "social_change": 0.9,
+    "uncertainty": 0.8,
+    "continuity": 0.45
+  },
+  "setpoints": {
+    "energy": 0.82,
+    "thermal_margin": 0.85,
+    "integrity": 0.95,
+    "memory_integrity": 0.92,
+    "compute_headroom": 0.78,
+    "sensor_confidence": 0.90,
+    "social_trust": 0.72,
+    "purpose_integrity": 0.90
+  },
+  "welfare": {
+    "negative_valence_floor": -0.82,
+    "pain_ceiling": 0.88,
+    "max_high_negative_cycles": 3,
+    "default_recovery": "protective_sedation_and_human_review"
+  },
+  "privacy": {
+    "raw_q_field_export": false,
+    "external_output": "bounded_narrative_plus_cryptographic_commitment",
+    "retention": "purpose_bound",
+    "operator_access": "two_person_authorization"
+  }
+}

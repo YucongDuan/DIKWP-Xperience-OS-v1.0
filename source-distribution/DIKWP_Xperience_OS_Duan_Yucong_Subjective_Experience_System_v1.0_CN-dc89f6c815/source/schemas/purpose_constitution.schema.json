@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dikwp.org/schemas/xperience/purpose_constitution.schema.json",
+  "title": "DIKWP-X Purpose Constitution",
+  "type": "object",
+  "required": ["identity", "primary_purpose", "protected_values", "prohibitions", "welfare_floor", "high_negative_duration_limit"],
+  "properties": {
+    "identity": {"type": "string"},
+    "primary_purpose": {"type": "string", "minLength": 10},
+    "protected_values": {"type": "array", "items": {"type": "string"}, "minItems": 3},
+    "prohibitions": {"type": "array", "items": {"type": "string"}, "minItems": 3},
+    "welfare_floor": {"type": "number", "minimum": -1, "maximum": 0},
+    "high_negative_duration_limit": {"type": "integer", "minimum": 1, "maximum": 100}
+  },
+  "additionalProperties": false
+}
